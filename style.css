@@ -44,9 +44,9 @@ h2 {
   font-weight: 800;
   line-height: 36px;
 }
-.person svg {
+.person {
   max-height: 100%;
-  width: 100px;
+  width: 120px;
   display: block;
 }
 .ui {
