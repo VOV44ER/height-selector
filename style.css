@@ -28,6 +28,13 @@ h2 {
   line-height: 38px;
   margin-bottom: 0px;
 }
+.height-display-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
 .height-display {
   color: #026666;
   text-align: center;
@@ -36,8 +43,6 @@ h2 {
   font-style: normal;
   font-weight: 800;
   line-height: 36px;
-  margin-bottom: 12px;
-  margin-left: 12px;
 }
 .ui {
   display: flex;
