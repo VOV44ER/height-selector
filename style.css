@@ -44,6 +44,11 @@ h2 {
   font-weight: 800;
   line-height: 36px;
 }
+.person svg {
+  max-height: 100%;
+  width: auto;
+  display: block;
+}
 .ui {
   display: flex;
   justify-content: center;
