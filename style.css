@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'IvyPresto Display';
+  src: url('./fonts/IvyprestoDisplay-Bold.woff2') format('woff2'),
+       url('./fonts/IvyprestoDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -10,22 +19,33 @@ body {
   text-align: center;
 }
 h2 {
-  font-family: 'DM Serif Display', serif;
-  font-size: 1.6em;
-  color: #004443;
-  margin-bottom: 0.3em;
+  color: #026666;
+  text-align: center;
+  font-family: "IvyPresto Display";
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 0px;
 }
 .height-display {
-  font-size: 2em;
-  font-weight: bold;
-  color: #005a56;
-  margin-bottom: 1em;
+  color: #026666;
+  text-align: center;
+  font-family: "Nunito Sans";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 12px;
+  margin-left: 12px;
 }
 .ui {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 66px;
+  margin-top: 69px;
+  margin-bottom: 79px;
 }
 .ruler-area {
   display: flex;
@@ -34,12 +54,11 @@ h2 {
 }
 .ruler-wrapper {
   position: relative;
-  width: 90px;
-  height: 320px;
-  background: #eaf7f4;
-  border-radius: 24px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin: 6px 0;
+  width: 87px;
+  height: 447px;
+  background: #E2F1ED;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px 3px rgba(2, 102, 102, 0.20);
 }
 .ruler-mark {
   display: flex;
@@ -85,10 +104,10 @@ h2 {
   z-index: 2;
 }
 .arrow-top {
-  top: 4px;
+  top: 15px;
 }
 .arrow-bottom {
-  bottom: 4px;
+  bottom: 15px;
   transform: rotateX(180deg) translateX(-50%);
 }
 .line svg {
@@ -105,17 +124,30 @@ h2 {
   transform: translateY(-50%);
 }
 button {
-  background: #f37045;
-  color: white;
+  display: flex;
+  width: 346px;
+  height: 54px;
+  padding: 17px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #FD6D3F;
+  box-shadow: 0px 0px 8px 3px rgba(2, 102, 102, 0.20);
   border: none;
-  padding: 1em;
-  border-radius: 24px;
-  font-size: 1em;
-  width: 90%;
-  max-width: 400px;
-  margin-top: 2em;
+  color: #FFF;
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
 }
 html, body {
   touch-action: none;
   overscroll-behavior: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
