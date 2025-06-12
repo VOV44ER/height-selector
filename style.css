@@ -45,7 +45,7 @@ h2 {
   line-height: 36px;
 }
 .person svg {
-  max-width: 100%;
+  width: 100% !important;
   height: auto;
   display: block;
 }
