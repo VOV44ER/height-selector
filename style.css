@@ -46,7 +46,7 @@ h2 {
 }
 .person svg {
   max-height: 100%;
-  width: auto;
+  width: 100px;
   display: block;
 }
 .ui {

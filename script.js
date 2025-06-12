@@ -13,7 +13,7 @@ let currentTranslate = 0;
 // Центр індикатора — строго центр .ruler-wrapper
 const indicatorOffset = () => {
   const wrapperRect = rulerWrapper.getBoundingClientRect();
-  return wrapperRect.height / 2 - 51.5;
+  return wrapperRect.height / 2 - 53.5;
 };
 
 // Генерація шкали: 2'1" – 9'0"
