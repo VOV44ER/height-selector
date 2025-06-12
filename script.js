@@ -70,7 +70,7 @@ function updateDisplay() {
 
 function animateInertia() {
   velocity *= 0.95;
-  currentTranslate += velocity;
+  currentTranslate -= velocity;
   clampTranslate();
   rulerInner.style.transform = `translateY(${currentTranslate}px)`;
   updateDisplay();
@@ -99,7 +99,7 @@ document.addEventListener('pointermove', (e) => {
   if (!isDragging) return;
   e.preventDefault();
   const delta = e.clientY - lastY;
-  currentTranslate += delta;
+  currentTranslate -= delta;
   clampTranslate();
   rulerInner.style.transform = `translateY(${currentTranslate}px)`;
   const now = performance.now();
