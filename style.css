@@ -35,6 +35,14 @@ h2 {
   align-items: center;
   justify-content: center;
 }
+.person {
+  position: relative;
+}
+.image-group {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 .height-display {
   color: #026666;
   text-align: center;
